@@ -304,7 +304,7 @@ def buildOPF(dstdir, title, filelist, cover=None):
                           "<meta name=\"region-mag\" content=\"true\"/>\n"])
     else:
         f.writelines(["<meta property=\"rendition:orientation\">portrait</meta>\n",
-                      "<meta property=\"rendition:spread\">portrait</meta>\n",
+                      "<meta property=\"rendition:spread\">landscape</meta>\n",
                       "<meta property=\"rendition:layout\">pre-paginated</meta>\n"])
     f.writelines(["</metadata>\n<manifest>\n<item id=\"ncx\" href=\"toc.ncx\" ",
                   "media-type=\"application/x-dtbncx+xml\"/>\n",
